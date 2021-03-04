@@ -18,6 +18,10 @@ export class Tab1Page {
       currency: "INR", // your 3 letter currency code
       key: "rzp_live_gM2B9AtiieU4AC", // your Key Id from Razorpay dashboard
       amount: 100, // Payment amount in smallest denomiation e.g. cents for USD
+      retry: {
+      "enabled": true,
+      "max_count": 4
+      } ,
       name: 'Razorpay',
       prefill: {
         email: 'test@razorpay.com',
