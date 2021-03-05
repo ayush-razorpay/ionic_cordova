@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
 import { AnonymousSubject } from 'rxjs/internal/Subject';
-
+import { BranchIo } from '@ionic-native/branch-io';
 declare var RazorpayCheckout:any;
+declare var branch:BranchIo;
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-  constructor() {}
 
+//constructor (private branch: BranchIo) {}
 
   payWithRazorpay() {
     var options = {

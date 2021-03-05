@@ -98,4 +98,11 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <plugin name="branch-cordova-sdk" spec="^4.0.0" />
+    <branch-config>
+        <branch-key value="key_live_opT5ccF0ZLjMryWNlRcr1ifaxzfwBDTv" />
+        <uri-scheme value="hobbyhunt" />
+        <link-domain value="ejd9x.app.link" />
+        <ios-team-release value="1492060690" />
+    </branch-config>
 </widget>

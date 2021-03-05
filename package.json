@@ -19,9 +19,12 @@
     "@angular/platform-browser": "~11.2.0",
     "@angular/platform-browser-dynamic": "~11.2.0",
     "@angular/router": "~11.2.0",
+    "@ionic-native/branch-io": "^4.20.0",
     "@ionic/angular": "^5.5.2",
     "cordova-ios": "6.2.0",
+    "cordova-res": "^0.15.3",
     "rxjs": "~6.6.0",
+    "rxjs-compat": "^6.6.6",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
@@ -35,6 +38,7 @@
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
+    "branch-cordova-sdk": "^4.0.0",
     "codelyzer": "^6.0.0",
     "com.razorpay.cordova": "github:razorpay/razorpay-cordova",
     "cordova-plugin-cocoapod-support": "^1.6.2",
@@ -66,7 +70,8 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "branch-cordova-sdk": {}
     },
     "platforms": [
       "ios"
