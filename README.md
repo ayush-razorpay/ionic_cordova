@@ -9,8 +9,7 @@
 3.Install ionic - npm install ionic 
 
 4.Run - ionic info and check the setup and linking
-
-![Uploading Screenshot 2021-03-03 at 11.54.38 AM.png…]()
+<img width="573" alt="Screenshot 2021-03-03 at 11 54 38 AM" src="https://user-images.githubusercontent.com/78246948/110366184-f4b09000-806b-11eb-9b26-8570d8131d6e.png">
 
 
 5.To create new project - ionic start myNewProject 
