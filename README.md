@@ -19,7 +19,9 @@
 
 'ionic cordova plugin add https://github.com/razorpay/razorpay-cordova.git --save'
 
-7.Run using command - ionic cordova run ios
+7. Add the checkout related code
+
+8.Run using command - ionic cordova run ios
 
 
 
