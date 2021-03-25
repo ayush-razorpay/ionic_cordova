@@ -15,7 +15,7 @@ export class Tab1Page {
       description: 'Credits towards consultation',
       image: 'https://i.imgur.com/3g7nmJC.png',
       currency: "INR", // your 3 letter currency code
-      key: "rzp_test_oJPbj9rC1rDGAQ", // your Key Id from Razorpay dashboard
+      key: "rzp_live_gM2B9AtiieU4AC", // your Key Id from Razorpay dashboard
       amount: 100, // Payment amount in smallest denomiation e.g. cents for USD
       retry: {
       "enabled": true,
